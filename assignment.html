@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Create Account</h3>
+    <div>
+        <label for="FirstName"><b>First Name*</b></label>
+        <input type="text" id="FirstName" name="FirstName" placeholder="enter your first name" required>
+        <label for="LastName"><b>Last Name*</b></label>
+        <input type="text" id="LastName" name="LastName" placeholder="enter your last name" required>
+    </div> <br>
+    <div>
+        <label for="Email"><b>Email*</b></label>
+        <input type="email" id="Email" name="Email" placeholder="enter your email" required>
+    </div> <br>
+    <div>
+        <label for="Password"><b>Password*</b></label>
+        <input type="password" id="Password" name="Password" placeholder="enter your password" required>
+        <label for="ConfirmPassword"><b>Confirm Password*</b></label>
+        <input type="password" id="ConfirmPassword" name="ConfirmPassword" placeholder="enter your password again"
+            required>
+    </div> <br>
+    <div>
+        <p><b>Gender:</b></p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="Gender" value="Male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="Gender" value="Female">
+        <p><b>Hobbies</b></p>
+        <label><input type="checkbox" name="Hobbies" value="Music">Music</label>
+        <label><input type="checkbox" name="Hobbies" value="Sports">Sports</label>
+        <label><input type="checkbox" name="Hobbies" value="Travel">Travel</label>
+        <label><input type="checkbox" name="Hobbies" value="Movies">Movies</label>
+    </div> <br>
+    <div>
+        <label for="ExpectedSalary"><b>Expected Salary</b></label>
+        <input type="number" id="ExpectedSalary" name="ExpectedSalary" placeholder="Enter expected salary" required>
+        <label for="Income"><b>Income</b></label>
+        <input type="range" id="Income" name="Income" min="10" max="20">
+    </div> <br>
+    <div>
+        <label for="profilePicture"><b>Upload Profile Picture</b></label>
+        <input type="file" id="profilePicture" name="profilePicture">
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" placeholder="18" min="18" max="35">
+    </div> <br>
+    <div>
+        <p><b>Bio</b></p>
+        <textarea name="Bio" id="Bio" rows="10" cols="20" placeholder="Hello! I am a professional....."
+            required></textarea>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+</body>
+
+</html>

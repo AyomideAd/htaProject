@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Activity</title>
+    <link rel="stylesheet" href="portfolio/assets/style.css">
+    <link rel="stylesheet" href="portfolio/assets/fontAwesome/css/fontawesome.css">
+    <link rel="stylesheet" href="portfolio/assets/fontAwesome/css/brands.css">
+    <link rel="stylesheet" href="portfolio/assets/fontAwesome/css/solid.css">
+    <link id="themeStyle" rel="stylesheet" href="portfolio/assets/light.css">
+</head>
+<body>
+    <header class="head-l">
+        <div>
+            
+        <nav>
+            <a href="#" ><img src="card3prov.PNG" alt="logo" width="50px"></a>
+            <ul>
+                <li><a href="#intro" class="active">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+                <button  onclick="document.getElementById('themeStyle').setAttribute('href', 'portfolio/assets/dark.css')"><i class="fa-solid fa-sun"></i></button>
+
+            </ul>
+            <a href="#intro">Request Quote</a>
+        </nav>
+    </div>
+    </header>
+    
+    <main>
+        <section id="intro">
+            <h4 id="pope">What is Lorem Ipsum</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <button onclick="document.getElementById('pope').innerHTML='Jeremiah is a geek. His colleagues tag him a &quot;pastor&quot; <br> Victoria is Jeremiah\'s crush but she has no idea.'">Click ME</button>
+             <script>document.write("Hello Bi")</script>
+
+             <button onclick="document.write('Hello Bi')">Try Me</button>
+
+             <p id="bimbo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, molestiae modi. Obcaecati voluptates, magni nam praesentium cum vitae voluptatem, modi, debitis illo quaerat nostrum ducimus error ratione et minima consequatur!</p>
+             <button onclick="document.getElementById('bimbo').style.color='rgb(230 0 0)'">Play</button>
+
+             
+        </section>
+        <section id="why-choose-us">
+            <h4 id="about-us">Why Do We Name It </h4>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                <a href="#intro">Go Back to Intro<i class="fa-brands fa-google"></i></a>
+        </section>
+        <section id="portfolio">
+            <h4 >Portfolio</h4>
+            <img id="bulb" src="portfolio/assets/image/bulb-edit.PNG" width="150px">
+            <button onclick="document.getElementById('bulb').src='portfolio/assets/image/yellowbulb.png'">Switch On</button>
+            <p><strong>About Client</strong>: Microsoft</p>
+            <p><strong>Status</strong>: Completed</p>
+            
+        </section>
+        <section id="contact-us">
+            <div>
+                <label for="FullName">Full Name</label> <br>
+                <input type="text" id="FullName" name="FullName">
+            </div> <br>
+            <div>
+                <label for="Number">Phone Number</label> <br>
+                <input type="number" id="Number" name="Number">
+            </div> <br>
+            <div>
+                <label for="Gender"></label>
+                <select name="Male" id="Gender">
+                    <option value="">--Select gender--</option>
+                    <option value="Male">Male</option>
+                    <option value="Femle">Female</option>
+                </select>
+            </div> <br>
+            <div>
+                <label for="comments">Comments</label>
+        <textarea name="comments" id="comments" rows="10" cols="20">This is a text</textarea> <br>
+            </div>
+        </section>
+    </main>
+    <footer><p>© 2024 Ben Carson and Sons | Designed by <a href="https://www.linkedin.com/in/ayomide-adegbe-9169571a9/" target="_blank">Ayomide Adegbe</a></p></footer>
+</body>
+</html>

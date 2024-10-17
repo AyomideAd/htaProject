@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Action defines the URL where the form data will be sent for processing-->
+    <!-- Method- get and post -->
+    <!-- Name-identfies the input element when the form is submitted -->
+    <!-- Forms -->
+    <div>
+        <label for="full_name">First Name</label>
+        <input type="text" id="full_name" value="Monsur" name="Fullname" placeholder="First Name" required>
+    </div> <br>
+    <!-- different input type attributes -->
+    <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="Password" placeholder="Input Password" required> 
+        <br>
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="email" placeholder="Input email">
+        <br>
+        <label for="Number">Number</label>
+        <input type="number" id="Number" name="number" placeholder="Input number" min="10" max="50" step="2" required>
+        <br>
+        <label for="Date">Date</label>
+        <input type="date" id="Date" name="Date">
+        <br>
+        <label for="Color"></label>
+        <input type="color" id="Color" name="color">
+        <br>
+        <label for="Range"></label>
+        <input type="range" id="Range" name="range" min="3" max="10" step="1">
+        <br>
+        <label for="file">files</label>
+        <input type="file" id="file" name="file" placeholder="Input file" multiple>
+    </div>
+    <!-- Buttons -->
+    
+
+    <!-- Checkboxes (input type= "checkbox") -->
+    <label for="foodList">Food Items</label>
+    <input type="checkbox" id="foodList" name="foodItems"> <br>
+
+    <br>
+
+    <!-- multiple checkboxes can also be used to select various options -->
+    <label><input type="checkbox" name="interest" value="sports">Sports</label>
+    <label><input type="checkbox" name="interest" value="music">Music</label>
+    <label><input type="checkbox" name="interest" value="movies">Movies</label>
+     <br>
+
+    <!-- radio input(<>)checkboxes can be used to select only one option-->
+    <label><input type="radio" name="Male" value="Male">Male</label>
+    <label><input type="radio" name="Female" value="Female">Female</label>
+     <br>
+    <!-- sample -->
+    <label><input type="radio" name="Gamer" value="Yes">Yes</label> <br>
+    <label><input type="radio" name="Gamer" value="No">No</label> <br>
+
+    <!-- Dropdowns(<select>) also called select menus let users choose from a list of options) -->
+    <label for="country"> Country</label>
+    <select name="Country" id="country" multiple>
+        <option value="">--Select Country--</option>
+        <option value="USA">United States</option>
+        <option value="NG">Nigeria</option>
+        <option value="CMB">Columbia</option>
+    </select> <br>
+     <br>
+
+    <!-- text area(<textarea>) allows users to input multiple lines of text9(like a comment or description) -->
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments" rows="10" cols="20">This is a text</textarea> <br>
+    <!-- Hidden input(<input type= "hidden">)  -->
+        <input type="text" name="user_id"  readonly value="1777">
+        <br>
+
+    <!-- patterns are for form validation -->
+     <input type="text" pattern="[A-Za-z]+" title="Amazing">
+     <input type="submit" value="Click">
+
+     <!-- file uploads -->
+    <!-- multiple attribute for dropdown and file upload is the (multiple) attribute-->
+</body>
+
+</html>

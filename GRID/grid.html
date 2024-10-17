@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-template</title>
+    <link rel="stylesheet" href="grid.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(autofill animax(130px, 1fr));
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-gap: 3px;
+            width: 100vw;
+            height: 100vh;
+        }
+        div {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div style="background-color: red;"></div>
+        <div style="background-color: greenyellow;"></div>
+        <div style="background-color: brown;"></div>
+        <div style="background-color: gray;"></div>
+        <div style="background-color: green;"></div>
+        <div style="background-color: purple;"></div>
+        <div style="background-color: blanchedalmond;"></div>
+        <div style="background-color: indianred;"></div>
+        <div style="background-color: black;"></div>
+        <div style="background-color: whitesmoke;"></div>
+        <div style="background-color: blueviolet;"></div>
+        <div style="background-color: chartreuse;"></div>
+        <div style="background-color: darkcyan;"></div>
+        <div style="background-color: cyan;"></div>
+        <div style="background-color: darkslategray; color: white;"></div>
+        <div style="background-color: violet;"></div>
+    </div>
+    
+      
+</body>
+</html>
